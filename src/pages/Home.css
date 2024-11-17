@@ -1,0 +1,100 @@
+/* Styling for the Home component */
+.home-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #25bf6d, #9bdbb9, #129350);
+    color: #fff;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Vertical Navigation Bar Styling */
+  .home-nav {
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .home-nav li {
+    margin-bottom: 15px;
+  }
+  
+  .home-nav a {
+    text-decoration: none;
+    color: #832e34;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .home-nav a:hover {
+    color: #3e6508;
+  }
+  
+  /* Content and Image Wrapper */
+  .home-content-wrapper {
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Content Styling */
+  .home-content {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4b2e83;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .home-content .title {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #2a2a72;
+    margin-bottom: 20px;
+  }
+  
+  .home-content .welcome-message {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #444;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image Styling */
+  .home-image {
+    flex: 0.5;
+    text-align: center;
+  }
+  
+  /* Updated Image Styling */
+.home-image img {
+  width: 300px; /* Adjusted width for a balanced display */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px; /* Slightly rounded corners */
+  border: 5px solid #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  object-fit: cover; /* Ensures the image fits well within the frame */
+}
+
+  

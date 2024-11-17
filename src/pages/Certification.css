@@ -1,0 +1,66 @@
+/* General container styles for Certifications */
+.certifications {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #b6eed2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .certifications h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* List styles for certifications */
+  .certifications ul {
+    list-style: none; /* Removes default bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .certifications li {
+    background-color: #cbf4f0;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: #555;
+    text-align: left; /* Align text to the left for better readability */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect on list items */
+  .certifications li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+  }
+  
+  /* Add slight spacing between items */
+  .certifications li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .certifications {
+      padding: 15px;
+    }
+  
+    .certifications h2 {
+      font-size: 1.8rem;
+    }
+  
+    .certifications li {
+      font-size: 0.9rem;
+      padding: 10px 15px;
+    }
+  }
+  
